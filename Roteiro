@@ -1,0 +1,22 @@
+ 1 -BASIC:
+	1.1 - string1.py--->ok
+	1.2 - listt1.py----->ok
+	1.3 - string2.py
+	1.4 - list2.py
+	1.5 - mimic.py
+	1.6 - wordcount.py
+
+2 - BABYNAMES:
+
+3 - LOGPUZZLE
+
+4 - COPYSPECIAL
+
+obs: 
+	*para rodar(no pycharm) o string1.py, [RUN > RUN...], acima de cada método tem seu enuciado, e dentro deles o espaço
+	para escreve-los.Mais abaixo existe o médoto main() onde serão executados os testes dos métodos, na saído do
+	método main() x indicará falha.Na questão dos testes funcionará da mesma forma para o string1 e 2, parao list1 e 2.
+
+	
+	
+
