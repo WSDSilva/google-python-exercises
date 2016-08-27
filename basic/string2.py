@@ -59,11 +59,16 @@ def not_bad(s):
 # Given 2 strings, a and b, return a string of the form
 #  a-front + b-front + a-back + b-back
 def front_back(a, b):
-    pa2 = int(len(a)/2)
-    pa1 = len(a) - pa2
+   #test(front_back('abcde', 'xyz'), 'abcxydez')
+   #got: 'abcxycdeyz' expected: 'abcxydez'
+   #test(front_back('Kitten', 'Donut'), 'KitDontenut')
 
-    return
+    limit_front = lambda x: len (x) - int(len(x)/2)
+    limit_back = lambda x: int(len(x)/2) * (-1)
 
+    s = ''.join([b[:limit_front(b)],a[limit_back(a):]]).join([a[:limit_front(a)],b[limit_back(b):]])
+
+    return s
 
 
 # Simple provided test() function used in main() to print
